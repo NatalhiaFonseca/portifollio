@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.container {
+    display: flex;
+    align-items: center; /* Alinha os elementos verticalmente */
+    justify-content: flex-start; /* Mantém os elementos alinhados à esquerda */
+    gap: 30px; /* Define a distância entre a imagem e as âncoras */
+    padding-right: 300px;
+    padding-left: 100px;
+}
+
+.image {
+    width: 100px; /* Ajuste o tamanho da imagem */
+    height: auto;
+}
+
+.links {
+    display: flex; /* Para alinhar os links horizontalmente */
+}
+
+.links a {
+    margin-left: 15px; /* Espaço entre as âncoras */
+    text-decoration: none;
+    color: #000;
+}
+
+.links a:hover {
+    color: #007BFF; /* Cor ao passar o mouse */
+}
+
