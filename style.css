@@ -5,9 +5,65 @@
 }
 body {
     color: white;
-    text-align: center;
+   
+    
 }
-img {
-    width: 350px;
+div {
+    width: 950px;
+    margin: 10px auto;
+    text-align: center;
+   
+}
+.topo{
+    padding: 10px;
+   
+}
+h1 {
+    margin-bottom: 60px;
+    font-size: 60px;
+    text-align: left;
+    line-height: 39px;
+
+}
+a{ 
+    text-decoration: none;
+    background-color: aquamarine;
+    color: black;
+    text-transform: uppercase;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 18px;
+    border: 1px solid;
+}
+.descricao {
+    display: flex;
+    align-items: center;
+   flex-direction: row-reverse;
+    
+}
+.name{
+    text-align: left;
+}
+.mudar{
+    line-height: 19px;
+}
+
+.texto-animado::after {
+    content: "Te convido a conhecer minhas competências na área."; /* Frase inicial */
+    animation: mudarTexto 12s infinite;
+}
+
+@keyframes mudarTexto {
+    25% { content: "Te convido a conhecer minhas competências na área."; }
+    50% { content: "Crio sites modernos e responsivos!"; }
+    75% { content: "Transformo ideias em código!"; }
+    100% { content: "Sou Desenvolvedora Web apaixonada por tecnologia."; }
+}
+
+
+
+img{
+  width: 350px;
 }
 
