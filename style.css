@@ -26,7 +26,7 @@ h1 {
     color: #D3D3D3 ;
 
 }
-a{ 
+.uma{ 
     text-decoration: none;
     background-color: #139944;
     color: black;
@@ -42,6 +42,11 @@ a{
     align-items: center;
    flex-direction: row-reverse;
     
+}
+span {
+    line-height: bold;
+    color: #139944;
+    font-style: italic;
 }
 .name{
     text-align: left;
@@ -61,13 +66,19 @@ img{
     font-size: 20px;
 
 }
+.duas{
+    text-align: left;
+}
 #ferramentas, #contatos {
     padding-top: 60px;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
+    text-align: left;
+    font-size: 16px;
 }
 .descri {
     padding-bottom: 15px;
     text-decoration: underline;
+    text-align: left;
 }
 .cont {
     
@@ -81,6 +92,8 @@ img{
     background-color: black;
     color: #D3D3D3;
     border: 1px solid  #139944;
+    border-radius: 10px;
+    text-decoration: none;
     transition: background-color 0.9s ease, color 0.9s ease;
 }
 .back:hover{
@@ -96,4 +109,65 @@ h3{
     font-weight: bold;
     font-size: 20px;
 }
+@media (max-width: 768px) {
+    div {
+        width: 90%;
+        text-align: center;
+    }
+    .uma {
+        font-size: 13.5px;
+        padding: 3px;
+    }
+    h1 {
+        font-size: 35px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .descricao {
+        flex-direction: column;
+        align-items: center;
+    }
+    img {
+        width: 80%;
+        margin-top: 25px;
+    }
+    .cont {
+        flex-direction: column;
+        gap: 5rem;
+        
+    }
+    .back {
+        padding: 30px;
+         
+    }
+    #contatos {
+        padding-bottom: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 28px;
+    }
+    .uma {
+        font-size: 13.5px;
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        margin: 1rem;
+        
+    }
+    .mudar {
+        font-size: 24px;
+        line-height: 26px;
+    }
+    img {
+        width: 100%;
+    }
+    .back {
+        padding: 20px;
+        
+    }
+}
+
 
