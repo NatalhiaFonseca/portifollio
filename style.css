@@ -41,7 +41,8 @@ h1 {
     display: flex;
     align-items: center;
    flex-direction: row-reverse;
-   line-height: 29px;
+   line-height: 31px;
+
     
 }
 span {
@@ -52,13 +53,13 @@ span {
 
 }
 .mudar{
-    font-size: 35px;
+    font-size: 40px;
 }
 img{
-  width: 400px;
+  width: 500px;
 }
 .padrao{
-    
+    font-size: 20px;
     line-height: 20px;
     font-size: 20px;
 
@@ -77,6 +78,7 @@ img{
     
 }
 .descri {
+    margin-top: 5px;
     padding-bottom: 15px;
     text-decoration: underline;
     text-align: left;
